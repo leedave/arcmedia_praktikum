@@ -4,6 +4,8 @@ require_once __DIR__ . '/../src/autoload.php';
 
 use Arcmedia\Praktikum\Core\Template;
 
+session_start();
+
 $attribute = [
 
 ];
