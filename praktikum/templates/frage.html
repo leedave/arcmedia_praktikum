@@ -9,6 +9,7 @@
     <body>
         <fieldset>
             <form action="/" method="GET">
+                <input type="hidden" name="frage" value="{{$ID}}" />
                 <div class="frage">{{$FRAGE}}</div>
                 <div class="antworten">{{$ANTWORTEN}}</div>
                 <button type="submit">Antworten</button>
