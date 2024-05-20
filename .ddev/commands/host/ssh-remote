@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## Description: Download and import database dump and Files from remote
+## Usage: ssh-remote
+## Example: "ddev ssh-remote"
+#ssh 4953@gate.appengine.flow.ch -p 3022

@@ -1,0 +1,14 @@
+name: praktikum
+type: php
+docroot: praktikum
+working_dir: { web:  "/var/www/html/praktikum" }
+php_version: "8.2"
+webserver_type: apache-fpm
+mariadb_version: "10.4"
+provider: default
+xdebug_enabled: true
+use_dns_when_possible: true
+timezone: ""
+hooks:
+  pre-start:
+    - exec-host: mkdir -p praktikum

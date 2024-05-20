@@ -1,0 +1,9 @@
+
+RewriteEngine on
+RewriteBase /
+
+# Rewrites urls in the form of /parent/child/
+# but only rewrites if the requested URL is not a file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php [QSA]

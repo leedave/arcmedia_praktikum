@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Check which port is used by PHPMyAdmin
+## Usage: phpmyadmin
+## Example: "ddev phpmyadmin"
+docker container list | grep phpmyadmin | grep 0.0.0.0: > phpmyadmin.txt
+python .ddev/commands/host/phpmyadmin.py
