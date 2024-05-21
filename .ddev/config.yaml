@@ -1,7 +1,7 @@
 name: praktikum
 type: php
 docroot: praktikum
-working_dir: { web:  "/var/www/html/praktikum" }
+working_dir: { web:  "/var/www/html/praktikum/web" }
 php_version: "8.2"
 webserver_type: apache-fpm
 mariadb_version: "10.4"
