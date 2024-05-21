@@ -9,6 +9,6 @@ folgende Programme vom Web und installiert sie
 - [Netbeans](https://netbeans.apache.org/front/main/index.html)
 
 ## Aufgabe 2, Fragen
-Denke dir mindestens 30 Schwierige Fragen aus. Für jede Frage brauchst du 4 falsche und eine richtige Antwort
+Denke dir mindestens 20 Schwierige Fragen aus. Für jede Frage brauchst du 4 falsche und eine richtige Antwort
 
 
